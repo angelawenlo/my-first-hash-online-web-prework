@@ -23,11 +23,11 @@ def adding
   new_hash = shipping_manifest
   # add 2 muskets to the shipping_manifest hash below
 
-  shipping_manifest["muskets"]= 2
+  new_hash["muskets"]= 2
 
   # add 4 gun powder to the shipping_manifest hash below
 
-  shipping_manifest["gun powder"]= 4
+  new_hash["gun powder"]= 4
 
   # return the shipping_manifest hash below
   shipping_manifest
