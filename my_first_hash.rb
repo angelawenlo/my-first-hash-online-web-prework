@@ -20,7 +20,7 @@ def retrieval
 end
 
 def adding
-
+  new_hash = shipping_manifest
   # add 2 muskets to the shipping_manifest hash below
 
   shipping_manifest["muskets"]= 2
